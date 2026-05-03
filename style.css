@@ -41,3 +41,68 @@ p {
     color: red;
     font-weight: bold;
 }
+
+
+
+/* Responsive design for tablets */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+
+  main {
+    width: 95%;
+    margin: auto;
+    padding: 10px;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    text-align: center;
+  }
+
+  nav li {
+    margin: 8px 0;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  table {
+    width: 100%;
+    display: block;
+    overflow-x: auto;
+  }
+
+  input, button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+}
+
+/* Responsive design for phones */
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  nav a {
+    display: block;
+    padding: 10px;
+  }
+}
